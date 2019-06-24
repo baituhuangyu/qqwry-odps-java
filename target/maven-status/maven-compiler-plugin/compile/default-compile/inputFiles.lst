@@ -1,3 +1,13 @@
-/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/qqwry/QQWry.java
-/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/qqwry/ParseLocationByIP.java
-/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/qqwry/IPZone.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/udfs/ResolutionCityUDF.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/udfs/ResolutionNationUDF.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/udfs/ResolutionDistrictUDF.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/resolution/AddressResolutions.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/resolution/ResolutionLocationMapByIP.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/resolution/ResolutionLocationByIP.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/udfs/ResolutionCommonUDF.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/resolution/QQWry.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/udfs/ResolutionProvinceUDF.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/udfs/ResolutionLocationUDF.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/resolution/IPZone.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/udfs/ResolutionMapUDF.java
+/Users/hy/java_project/qqwry-java/src/main/java/com/github/baituhuangyu/resolutionLocation/helper/fileHelper/RWTxt.java

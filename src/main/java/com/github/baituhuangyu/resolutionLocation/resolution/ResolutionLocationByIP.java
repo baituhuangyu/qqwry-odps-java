@@ -1,17 +1,17 @@
-package com.github.baituhuangyu.qqwry;
+package com.github.baituhuangyu.resolutionLocation.resolution;
 
-import com.aliyun.odps.udf.UDF;
+
 import java.io.IOException;
 
 
-public class ParseLocationByIP extends UDF {
+public class ResolutionLocationByIP {
     private static QQWry qqwry;
 
     private static void initClass()  {
         try {
             qqwry = new QQWry();
         } catch (IOException e) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
     }
 
@@ -19,14 +19,12 @@ public class ParseLocationByIP extends UDF {
         initClass();
     }
 
-    public String evaluate(String s) {
+    public static String ResolutionIP(String s) {
         if (s == null || s.equals("")) {
             return null;
         }
-
         final IPZone zone = qqwry.findIP(s);
-
         return zone.getMainInfo();
-        // return zone.getSubInfo();
+//         return zone.getSubInfo();
     }
 }

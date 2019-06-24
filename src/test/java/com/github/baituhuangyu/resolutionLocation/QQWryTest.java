@@ -1,5 +1,7 @@
-package com.github.baituhuangyu.qqwry;
+package com.github.baituhuangyu.resolutionLocation;
 
+import com.github.baituhuangyu.resolutionLocation.resolution.IPZone;
+import com.github.baituhuangyu.resolutionLocation.resolution.QQWry;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.github.baituhuangyu.qqwry;
+package com.github.baituhuangyu.resolutionLocation.resolution;
 
 public class IPZone {
 	private final String ip;

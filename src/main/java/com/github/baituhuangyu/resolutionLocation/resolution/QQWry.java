@@ -1,4 +1,4 @@
-package com.github.baituhuangyu.qqwry;
+package com.github.baituhuangyu.resolutionLocation.resolution;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -13,15 +13,15 @@ import java.nio.file.Path;
  * <pre>
  * Usage:
  * {@code
- * QQWry qqwry = new QQWry(); // load qqwry.dat from classpath
+ * QQWry resolutionLocation = new QQWry(); // load resolutionLocation.dat from classpath
  *
- * QQWry qqwry = new QQWry(Paths.get("path/to/qqwry.dat")); // load qqwry.dat from java.nio.file.Path
+ * QQWry resolutionLocation = new QQWry(Paths.get("path/to/resolutionLocation.dat")); // load resolutionLocation.dat from java.nio.file.Path
  *
- * byte[] data = Files.readAllBytes(Paths.get("path/to/qqwry.dat"));
- * QQWry qqwry = new QQWry(data); // create QQWry with provided data
+ * byte[] data = Files.readAllBytes(Paths.get("path/to/resolutionLocation.dat"));
+ * QQWry resolutionLocation = new QQWry(data); // create QQWry with provided data
  *
  * String myIP = "127.0.0.1";
- * IPZone ipzone = qqwry.findIP(myIP);
+ * IPZone ipzone = resolutionLocation.findIP(myIP);
  * System.out.printf("%s, %s", ipzone.getMainInfo(), ipzone.getSubInfo());
  * // IANA, 保留地址用于本地回送
  * }
@@ -63,10 +63,10 @@ public class QQWry {
 	private final long indexTail;
 
 	/**
-	 * Create QQWry by loading qqwry.dat from classpath.
+	 * Create QQWry by loading resolutionLocation.dat from classpath.
 	 *
 	 * @throws IOException
-	 *             if encounter error while reading qqwry.dat
+	 *             if encounter error while reading resolutionLocation.dat
 	 */
 	public QQWry() throws IOException {
 		final InputStream in = QQWry.class.getClassLoader().getResourceAsStream("qqwry.dat");
@@ -85,10 +85,10 @@ public class QQWry {
 	}
 
 	/**
-	 * Create QQWry with provided qqwry.dat data.
+	 * Create QQWry with provided resolutionLocation.dat data.
 	 *
 	 * @param data
-	 *            fully read data from a qqwry.dat file.
+	 *            fully read data from a resolutionLocation.dat file.
 	 */
 	public QQWry(final byte[] data) {
 		this.data = data;
@@ -97,10 +97,10 @@ public class QQWry {
 	}
 
 	/**
-	 * Create QQWry from a path to qqwry.dat file.
+	 * Create QQWry from a path to resolutionLocation.dat file.
 	 *
 	 * @param file
-	 *            path to qqwry.dat
+	 *            path to resolutionLocation.dat
 	 * @throws IOException
 	 *             if encounter error while reading from the given file.
 	 */
